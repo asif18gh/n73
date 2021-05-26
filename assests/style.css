@@ -8,37 +8,34 @@
   box-sizing: border-box;
   font-family: "ProximaNovaCond";
 }
-html
-{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-#loader
-{
-    height:100vh;
-    background:#000;
-    z-index: 999;
-    position: fixed;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+#loader {
+  height: 100vh;
+  background: #000;
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#loader img
-{
-    height:150px;
-    animation: zoom-in-zoom-out 2s ease-out infinite;
+#loader img {
+  height: 150px;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
 }
 
 @keyframes zoom-in-zoom-out {
-    0% {
-      transform: scale(1, 1);
-    }
-    50% {
-      transform: scale(1.2, 1.2);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
+  0% {
+    transform: scale(1, 1);
   }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
 #section1 {
   height: 100vh;
@@ -84,14 +81,28 @@ html
   }
 }
 
-#section2
-{
-    height:100vh;
-    background-image: url('../assests/sec2.png');
-    background-size: cover;
-    background-attachment: fixed;
+#section2 {
+  height: 100vh;
+  background-image: url("../assests/sec2.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
-#section2 p
-{
-    font-weight: bolder;
+#section2 p {
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  #section1 .container {
+    padding-top: 50px;
+  }
+  #section1 .container img {
+    height: 120px;
+  }
+  #section1 .container p {
+    font-size: 1rem;
+  }
+  #section2 {
+    background: #fff;
+    padding-top: 120px;
+  }
 }
