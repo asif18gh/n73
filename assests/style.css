@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "ProximaNovaCond";
+  src: url(../assests/fonts/ProximaNovaCond-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ProximaNovaCond";
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#loader
+{
+    height:100vh;
+    background:#000;
+    z-index: 999;
+    position: fixed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#loader img
+{
+    height:150px;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+#section1 {
+  height: 100vh;
+  background: url("../assests/back4.png");
+  background-size: cover;
+}
+#section1 .container {
+  padding-top: 170px;
+  text-align: center;
+}
+#section1 .container img {
+  height: 160px;
+}
+#section1 .container p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  line-height: 40px;
+}
+#section1 .container .contactSection {
+  margin-top: 90px;
+}
+#section1 .container .contactSection h6 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin: 10px auto;
+}
+#section1 .container .btn {
+  box-shadow: none;
+  border-radius: 0;
+  animation: MoveUpDown 1.2s linear infinite;
+}
+#section1 .container .btn i {
+  font-size: 2rem;
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#section2
+{
+    height:100vh;
+    background-image: url('../assests/sec2.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#section2 p
+{
+    font-weight: bolder;
+}
