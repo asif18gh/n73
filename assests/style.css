@@ -346,7 +346,7 @@ html {
 /* Start the media query */
 @media (max-width: 768px) {
   #section1 .container {
-    padding-top: 50px;
+    padding-top: 120px;
   }
   #section1 .container img {
     height: 120px;
@@ -354,8 +354,56 @@ html {
   #section1 .container p {
     font-size: 1rem;
   }
-  #section2 {
+  #section2
+  {
     background: #fff;
-    padding-top: 120px;
   }
+  #section2 .container{
+  padding-top:90px;
+  }
+  #section3
+  {
+    background: #fff;
+  }
+
+  #section3
+  {
+    padding-top:130px;
+    border-top: 0px solid #000;
+  }
+  #section3 img
+  {
+    display: none;
+  }
+
+  #section4
+  {
+    padding-top:20px;
+    background:#fff;
+  }
+  #section4 img
+  {
+    display: none;
+  }
+  #section5
+  {
+    background:#fff;
+  }
+  #section5 img
+  {
+    display: none;
+  }
+  #section6 
+  {
+    height:100vh;
+  }
+  #section6 .container
+  {
+    padding-top:250px !important;
+  }
+  #section7
+  {
+    padding:10px;
+  }
+
 }
