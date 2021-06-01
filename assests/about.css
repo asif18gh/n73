@@ -79,6 +79,14 @@
     text-transform: uppercase;
     padding-top: 150px;
 }
+
+#aboutUsSection3 h1 span
+{
+    font-weight: bold;
+    font-family: ProximaNovaCondBold;
+    border-bottom: 2px solid #0d47a1;
+}
+
 #aboutUsSection3 p
 {
     line-height:30px;
