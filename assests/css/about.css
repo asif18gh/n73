@@ -1,0 +1,160 @@
+#aboutUsSection1 {
+    /* height: 550px; */
+    min-height: 550px;
+    padding-bottom: 30px;
+    border: 0px solid #000;
+    background-image: url('../img/aboutBack.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#aboutUsSection1 .container {
+    padding-top: 140px;
+    text-align: center;
+}
+
+#aboutUsSection1 * {
+    text-align: center;
+}
+
+#aboutUsSection1 .container h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#aboutUsSection1 .container p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#aboutUsSection1 img {
+    height: 80px;
+}
+
+#aboutUsSection2 .col-lg-6 {
+    /* height: 100vh; */
+}
+
+#aboutUsSection2 .backup {
+    background-image: url('../img/about\ us.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#aboutUsSection2 img {
+    height: 50px;
+    float: right;
+}
+
+#aboutUsSection2 h1 {
+    font-size: 3rem;
+    color: #0d47a1;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+#aboutUsSection2 p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#aboutUsSection2 .newBackup {
+    background-image: url('../img/logo3.png');
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#aboutUsSection3 .col-lg-6 {
+    /* height: 100vh; */
+}
+
+#aboutUsSection3 img {
+    height: 50px;
+    float: right;
+}
+
+#aboutUsSection3 h1 {
+    font-size: 3rem;
+    color: #0d47a1;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+#aboutUsSection3 h1 span {
+    font-weight: bold;
+    font-family: ProximaNovaCondBold;
+    border-bottom: 2px solid #0d47a1;
+}
+
+#aboutUsSection3 p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#aboutUsSection3 ul li {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#aboutUsSection3 .backup {
+    background-image: url('../img/corporate_finance.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#aboutUsSection3 .newBackup {
+    background-image: url('../img/logo3.png');
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+@media (max-width: 768px) {
+    #aboutUsSection1 {
+        border: 0px solid #000;
+        /* height: 100vh; */
+    }
+    #aboutUsSection1 h1 {
+        font-size: 1.7rem !important;
+        font-weight: bold;
+    }
+    #aboutUsSection1 p {
+        margin-top: 20px;
+    }
+    #aboutUsSection2 .backup {
+        display: none;
+    }
+    #aboutUsSection2 h1 {
+        font-weight: bold;
+    }
+    #aboutUsSection2 {
+        padding-top: 60px;
+    }
+    #aboutUsSection2 img {
+        float: left;
+    }
+    #aboutUsSection2 p {
+        font-weight: bold;
+        text-align: justify;
+    }
+    #aboutUsSection3 .backup {
+        display: none;
+    }
+    #aboutUsSection3 img {
+        float: left;
+    }
+    #aboutUsSection3 h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 100px;
+    }
+    #aboutUsSection3 p {
+        font-weight: bold;
+        text-align: justify;
+    }
+    #aboutUsSection3 ul li {
+        font-weight: bold;
+        text-align: justify;
+    }
+}
