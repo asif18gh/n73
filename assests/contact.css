@@ -1,64 +1,83 @@
-#contactSection1 .container
-{
-    padding-top: 120px;
-}   
-
-#contactSection1 .btn
-{
-    background:#0d47a1;
-    color: #fff;
-    padding: 8px 30px;
+#contactSection1 {
+  height: 100vh;
 }
 
-#contactSection1  .form-control
+#contactSection1 .col-lg-6 {
+  height: 100vh;
+}
+
+#contactSection1 .backup {
+  background-image: url("../assests/contact_us.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contactSection1 .imgCon {
+  border: 0px solid #000;
+  margin-top: 50px;
+  height: 50px;
+}
+#contactSection1 .imgCon img {
+  height: 50px;
+  float: right;
+}
+#contactSection1 h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding-top: 90px;
+}
+#contactSection1 h1 span {
+  color: #0d47a1;
+  border-bottom: 2px solid #0d47a1;
+  font-weight: bold;
+  font-family: ProximaNovaCondBold;
+}
+
+#contactSection1 h2 {
+  margin-top: 20px;
+}
+
+#contactSection1 p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+#contactSection1 h5 {
+  color: #0d47a1;
+  font-weight: bold;
+}
+#contactSection2 {
+  height: 100vh;
+}
+#contactSection2 .col-lg-6 {
+  height: 100vh;
+}
+
+#contactSection2 .backup {
+  background-image: url("../assests/businessprocess.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#contactSection2 .imgCon {
+  border: 0px solid #000;
+  margin-top: 50px;
+  height: 50px;
+}
+#contactSection2  img {
+  float: right;
+  height: 50px;
+}
+
+#contactSection2 .btn
+{
+    background-color: #0d47a1;
+    color: #fff;
+    box-shadow: none;
+}
+
+#contactSection2 .form-control
 {
     box-shadow: none;
     border:1px solid #0d47a1;
-    color: black;
-}
-#contactSection1 h1
-{
-    color:#0d47a1;
-    text-transform: uppercase;
-}
-#contactSection1 h3
-{
-    line-height:40px;
-    text-transform: uppercase;
-    color:#000;
-}
-#contactSection1 h4
-{
-    color:#0d47a1;
-    font-weight: bold;
-    letter-spacing:2px;
-}
-#contactSection1 label
-{
-    color: #000;
-    font-weight:bold;
-}
-#contactSection1 img
-{
-    height:60px;
-}
-#contactSection1  h2
-{
-    color: #000;
-    text-align: center;
-    text-transform: uppercase;
-    font-size:2.5rem;
-    margin-top: 30px;
-}
-#contactSection1 .imageTag
-{
-    border:0px solid #000;
-    text-align: center;
-}
-#contactSection1  span
-{
-    color: #0d47a1;
-    border-bottom: 2px solid #0d47a1;
-    font-weight: bold;
-    font-family: ProximaNovaCondBold;
 }
